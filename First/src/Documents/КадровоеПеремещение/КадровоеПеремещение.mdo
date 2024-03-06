@@ -23,6 +23,16 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultListForm>Document.КадровоеПеремещение.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="0df15659-a8d0-46ab-bd94-8fef6f3558ea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>
