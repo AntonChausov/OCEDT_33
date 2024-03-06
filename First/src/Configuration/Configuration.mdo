@@ -101,6 +101,7 @@
   <documents>Document.ОприходованиеТовара</documents>
   <documents>Document.СписаниеТовара</documents>
   <documents>Document.ПриемНаРаботу</documents>
+  <documents>Document.КадровоеПеремещение</documents>
   <sequences>Sequence.СкладскиеДокументы</sequences>
   <documentJournals>DocumentJournal.ДвижениеТоваров</documentJournals>
   <documentJournals>DocumentJournal.ТоварыНаСкладах</documentJournals>
