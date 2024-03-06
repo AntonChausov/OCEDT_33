@@ -24,5 +24,6 @@
   <content>CommonModule.РаботаСФормамиКлиент</content>
   <content>CommonModule.РаботаСДинамическимиСписками</content>
   <content>Catalog.Производители</content>
+  <content>Catalog.Подразделения</content>
   <subsystems>СмТакже</subsystems>
 </mdclass:Subsystem>
