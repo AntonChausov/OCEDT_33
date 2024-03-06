@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdf23bff-b428-4420-b69e-766b806d5a3d">
+  <producedTypes>
+    <objectType typeId="b8116333-4cb5-4a3d-8938-eec37bf70e43" valueTypeId="3e0139bb-1c58-4b07-b9af-b1d789cc2392"/>
+    <refType typeId="89589962-c0c9-470d-8808-f5ef277a1396" valueTypeId="bd02853b-9517-4f0e-ab7c-7661972e3c3d"/>
+    <selectionType typeId="54c7dd32-e5c3-4bca-932d-486f7581ecab" valueTypeId="530af551-18c7-427b-bc76-fe6675915b91"/>
+    <listType typeId="530d01ec-5ed1-4037-970b-932fdbf673e5" valueTypeId="6d679a21-13ae-4909-b136-33fcb2f6d17d"/>
+    <managerType typeId="ec521900-85b2-4763-9f59-6a5db27fdfde" valueTypeId="4924c20f-c0fb-4837-b18e-a9406d09f10c"/>
+  </producedTypes>
+  <name>Лекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лекции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Лекции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Лекции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Лекции</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Лекции.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="04f2269c-3738-4005-8ec2-fd5076967c66">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

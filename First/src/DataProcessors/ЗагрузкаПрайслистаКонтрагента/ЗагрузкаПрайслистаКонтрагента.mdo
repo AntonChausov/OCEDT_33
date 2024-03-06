@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ba53bb9-197a-44ba-90c5-558f1136d436">
+  <producedTypes>
+    <objectType typeId="663a5872-2bbc-4dfd-9ade-1de63c17412b" valueTypeId="8e7677f2-6d4f-4695-8eef-e542fc4f7dda"/>
+    <managerType typeId="604c68f2-7c8e-48e3-bed0-92a6485ba6e1" valueTypeId="e25bc2dd-bd8a-4f0b-a048-0af96b6c82a9"/>
+  </producedTypes>
+  <name>ЗагрузкаПрайслистаКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка прайслиста контрагента</value>
+  </synonym>
+  <comment>Загрузка прайслиста контрагента</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПрайслистаКонтрагента.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Загрузка прайслиста контрагента</value>
+  </extendedPresentation>
+  <attributes uuid="769c9fa2-652b-4036-bdb8-667892a1661c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="fcd63e9f-40c0-4970-ad72-87ea1480ed86">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e8b8e891-3537-4374-8d9f-fed02cce8641">
+    <name>СодержаниеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание файла</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="811b143c-91a0-435a-a554-c5c801925e2f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

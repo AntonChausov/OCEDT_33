@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b41542a-503e-46ba-9774-79a90d2894d4">
+  <producedTypes>
+    <selectionType typeId="a4b95b65-20c0-44eb-8858-63c36d5787c9" valueTypeId="5906a8b2-6e98-416e-85c1-ac8fa638e0a7"/>
+    <listType typeId="ec3bee18-453a-4c16-bbcf-28a0a7481e75" valueTypeId="7cc03f26-233b-49b8-ae8b-79bb8a80df3a"/>
+    <managerType typeId="91796a54-97e9-40b9-8976-1541c88fa5ae" valueTypeId="58eb35c3-c532-4f00-aa89-aabe262be2c6"/>
+  </producedTypes>
+  <name>ДвижениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение товаров</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДвижениеТоваров.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Движение товаров (Поступление + Реализация)</value>
+  </listPresentation>
+  <columns uuid="64cb4b12-320b-4b03-9e09-66651ad15b6e">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="60b59346-9782-46a1-8988-4b464abdc69a">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.СуммаДокумента</references>
+  </columns>
+  <forms uuid="e6fb45f3-eac0-48de-a411-63e96a7167c8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

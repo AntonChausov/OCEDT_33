@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53ace862-dd5e-41ac-a709-190b71f10d80">
+  <producedTypes>
+    <objectType typeId="56dde1f2-f533-4d88-96b7-d81f5f7bf2a3" valueTypeId="0c32bc22-9644-4343-a127-0f6f10976f9f"/>
+    <refType typeId="51015098-8f22-4c93-8d32-3c562da01963" valueTypeId="a1c2e0b6-cc1d-4737-933e-dad1e79e5196"/>
+    <selectionType typeId="a52c5228-4c3e-47c7-aea6-996dc3365add" valueTypeId="b71e29ea-b3b4-44c8-9c2a-e7db28c42104"/>
+    <listType typeId="141445ae-a799-418e-ba82-a7a4612d5a86" valueTypeId="0d9d9204-8284-4002-8566-259dd555a74a"/>
+    <managerType typeId="aea490d0-dd80-4ace-a623-22a854c4b0ec" valueTypeId="49cef3dc-cdc3-4c56-b960-279a76a87cc2"/>
+  </producedTypes>
+  <name>ОприходованиеТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оприходование товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОприходованиеТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Оприходование товара на склад</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Оприходование товара на склад</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Оприходование товара на склад</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Оприходование товара на склад</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОприходованиеТовара.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Товары</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a3e3ea97-db89-4505-81ff-111ee79b76bc">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="af04cf98-9255-41d5-b005-e1d7cd7e79e5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b4ad30b2-f62c-4e3e-8e49-321ef346d795">
+    <producedTypes>
+      <objectType typeId="ec2fb1ad-84f8-4d4c-aa03-c017abf99b8d" valueTypeId="d59e2944-6d75-44a1-b9c0-3f1a69dc178f"/>
+      <rowType typeId="fc6ec682-a6e1-49de-b420-e525ca2e6b30" valueTypeId="330398c7-8e4d-4193-9a47-3564f9376ba2"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="9edc874b-b27c-4580-899f-fe1c4e5925ab">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="68ced1f6-cbe3-4258-99dc-0071ef8726eb">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f2d5537-8a40-4ee8-ba8c-1b1630d032c7">
+  <name>КадровыйУчёт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый учёт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Сотрудники</content>
+  <content>CommonCommand.УволенныеСотрудники</content>
+  <content>CommandGroup.БыстрыйДоступ</content>
+  <content>CommonCommand.РаботающиеСотрудники</content>
+</mdclass:Subsystem>

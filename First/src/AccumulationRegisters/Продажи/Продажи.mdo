@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cde6973-52b4-4a64-b4a0-8fecd619e36c">
+  <producedTypes>
+    <selectionType typeId="a26ae0a3-9270-4a52-8791-a091587bbfe6" valueTypeId="5f18b8ec-234a-4396-ae39-35ad6706f3aa"/>
+    <listType typeId="07a1ff7f-033f-4887-a106-e325bddb2721" valueTypeId="98c0b4ec-5840-410e-8e22-95fc0a4188a2"/>
+    <managerType typeId="1b4f9dd9-705a-4e2c-b394-f5048c222a5a" valueTypeId="4909863d-65aa-4fdf-a894-3b1116fc1e14"/>
+    <recordSetType typeId="f8c0f429-5b0c-468d-8b5d-57644f826fdd" valueTypeId="f029bb84-7690-4bff-b2f0-3d34c55ced84"/>
+    <recordKeyType typeId="6b1b94cf-d2c7-48ef-904b-df1dca621118" valueTypeId="ed289f6c-ae46-4778-aec4-6a7959c05263"/>
+    <recordType typeId="4718b65e-161a-433f-baaa-ffa08579d5b9" valueTypeId="942101cc-9242-45c8-8a5e-3ed0520860fd"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <comment>Продажи</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Продажи</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Продажи</value>
+  </extendedListPresentation>
+  <resources uuid="6d166d9e-eff4-42a9-900a-5f9df8f8b284">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9b42d14a-dfbf-45c2-8720-0f3115177bd9">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4702c5c5-e926-42a0-bf07-cc1fb27ce2b4">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

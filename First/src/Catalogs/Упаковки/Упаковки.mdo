@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be96e4b0-5cf7-4abc-9337-ba06a090ed3c">
+  <producedTypes>
+    <objectType typeId="ab3e4784-d84c-4322-899c-efb1bd1efcad" valueTypeId="976c35f5-a7cd-4c20-a1cc-ac3832df58b7"/>
+    <refType typeId="44ab502a-a505-42e3-b0e0-96bd9599779b" valueTypeId="8513fa25-793c-47dc-bbf1-9011707eb38d"/>
+    <selectionType typeId="44e80768-6b43-4ec4-b397-08b3e15413c0" valueTypeId="5c70d540-f547-4591-8427-559c9deeb8d3"/>
+    <listType typeId="5f72ecf1-2c33-45bc-b3d5-bc6f30409e88" valueTypeId="7689bfcc-9738-4ec9-a41a-89341aa952e0"/>
+    <managerType typeId="68b5f911-1b79-45d4-a9b2-c0b0aee6f513" valueTypeId="6777427f-6229-4acf-b8fa-0db1a5bc7e17"/>
+  </producedTypes>
+  <name>Упаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Упаковки.Form.ФормаСписка</defaultListForm>
+  <forms uuid="922157be-9319-46bf-bea2-c58462ac58f1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6611b731-0a4a-4831-bcfc-1052eaa3b7ca">
+    <name>СтандартныеУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартные упаковки</value>
+    </synonym>
+  </templates>
+  <commands uuid="4525f0ce-6190-4264-ad32-526ef49bb86d">
+    <name>СоздатьСтандартныеУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать стандартные упаковки</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Упаковки</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

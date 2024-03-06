@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80885e4a-961d-4897-929d-32476e46fd63">
+  <producedTypes>
+    <objectType typeId="8791b672-5bbf-4285-ae45-a0a81fa76cc9" valueTypeId="71d6b93d-c5e1-4612-94df-4822332ff367"/>
+    <refType typeId="2d3cb811-0760-4956-a0d7-9827c7543a9c" valueTypeId="a2743eff-e4cd-4fb4-a5d9-79ad26584d36"/>
+    <selectionType typeId="ae881250-b658-45b4-a20b-aee0b704b4eb" valueTypeId="c70d97b8-b1b8-4448-bc5d-69c1a2cd07b8"/>
+    <listType typeId="41e63271-db8d-4800-b532-3dbe5c0b136d" valueTypeId="3bd07dac-6447-4734-9caf-bf395b62e1da"/>
+    <managerType typeId="4780dde2-0864-4aad-84d3-66453e22be44" valueTypeId="aecff81f-68d9-4ddf-8b9c-e365a69d3a3c"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склады</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a74301ab-83d2-465b-8231-5f3ceb92170e">
+      <name>СкладМытищи</name>
+      <description>Склад Мытищи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="3399fe46-ebc6-44c6-82d9-d5b9a4cbc1b3">
+      <name>СкладОдинцово</name>
+      <description>Склад Одинцово</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="e0103517-c4fc-4d97-8412-45d3c1a753b5">
+      <name>СкладОсновной</name>
+      <description>Склад Основной</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

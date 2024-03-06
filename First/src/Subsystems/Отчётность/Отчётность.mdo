@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d262d277-d2ca-427f-a55f-4d4bd2377258">
+  <name>Отчётность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчётность</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ОстаткиПоСкладам</content>
+  <content>Report.ОтчётПоПродажам</content>
+  <content>Report.ИсторияЦенПродажи</content>
+  <content>Report.АктуальныеЦеныПоставщиков</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>DataProcessor.РасчетПремий</content>
+  <content>DataProcessor.РаботаСBase64</content>
+</mdclass:Subsystem>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed45d4e1-a774-4b19-9b5b-1b7f046fcb3a">
+  <producedTypes>
+    <selectionType typeId="2d0dfdc3-6a1d-47f8-aded-253b54ff10e1" valueTypeId="377d1ff9-4aa3-4663-97e4-eeaa12170685"/>
+    <listType typeId="3b1cd2fe-741e-4748-b734-8661085b2cf8" valueTypeId="41d007de-c4a4-49a9-ae21-33c4c5b29c38"/>
+    <managerType typeId="a81f1bd4-781f-4f16-b832-e05e862bcba0" valueTypeId="55e84e73-e75f-44f4-a51d-30bd14b89838"/>
+    <recordSetType typeId="890acd00-bd98-449d-a531-91984de0e813" valueTypeId="da64a53c-1ba2-4f47-8103-f8d52e8af9fa"/>
+    <recordKeyType typeId="8a5c92c7-17d1-40eb-a126-6fdcb55514da" valueTypeId="a9d8f0d6-e824-4529-b84c-9db84fcbe661"/>
+    <recordType typeId="3714bb2b-847f-4eab-a2d4-ab745b2472cd" valueTypeId="d009b62b-e85b-441d-8a06-4d367f8a4455"/>
+    <recordManagerType typeId="a4b25dd2-3135-4ffe-8d6a-af8dc3d0b7fd" valueTypeId="b95d68a1-4947-4555-a3b2-6c48ca126486"/>
+  </producedTypes>
+  <name>ЦеныПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены поставщиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цены Поставщиков</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Цены Поставщиков</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены Поставщиков</value>
+  </listPresentation>
+  <resources uuid="b1108d93-598c-4462-9335-f2afbd05e5da">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="655c5cfc-4759-40ee-90b1-dc13516a52f2">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fdcf0f20-42c9-43ff-8af0-dbf1f2ccd3dc">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd3dd3ac-9f45-4796-a912-2932fb10cfde">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

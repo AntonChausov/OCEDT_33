@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e04e168-adde-40df-b828-acdb070e9196">
+  <producedTypes>
+    <selectionType typeId="51921a42-77a6-44e2-9777-9de505a439b5" valueTypeId="3c1f2c50-919d-4045-a348-a0745a1e912e"/>
+    <listType typeId="def1a98e-e123-4647-9bdf-fcaca1943162" valueTypeId="4aeb3c8f-9cdd-491d-a9b4-12f6374c7ceb"/>
+    <managerType typeId="348b609f-dceb-4ca7-95b5-f0e1b2e39ab6" valueTypeId="ffc3dfb6-013a-4d12-8c43-41e6c48a977b"/>
+  </producedTypes>
+  <name>ТоварыНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары на складах</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ТоварыНаСкладах.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ОприходованиеТовара</registeredDocuments>
+  <registeredDocuments>Document.СписаниеТовара</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Движение Товаров на складах</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движение Товаров на складах</value>
+  </extendedListPresentation>
+  <columns uuid="e382ab0e-b37e-437e-affd-e36776471bc8">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ОприходованиеТовара.Attribute.Склад</references>
+    <references>Document.СписаниеТовара.Attribute.Склад</references>
+  </columns>
+  <forms uuid="fd1b0e40-8245-4221-a6cd-6bce41b854c3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

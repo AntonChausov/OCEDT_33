@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78014bae-3bc4-4ca0-851e-63c4658a684d">
+  <name>СмТакже</name>
+  <synonym>
+    <key>ru</key>
+    <value>См. Также</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеТоваровИУслуг</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>Document.СписаниеТовара</content>
+  <content>Document.ОприходованиеТовара</content>
+  <parentSubsystem>Subsystem.Сделки</parentSubsystem>
+</mdclass:Subsystem>

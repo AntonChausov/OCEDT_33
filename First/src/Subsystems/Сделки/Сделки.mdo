@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be95d9de-aec6-4199-b822-74ac4b74d658">
+  <name>Сделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сделки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Событие</content>
+  <content>Enum.ТипыСобытий</content>
+  <content>DocumentJournal.ДвижениеТоваров</content>
+  <content>DataProcessor.ПересчетПоступлений</content>
+  <content>Document.УстановкаЦен</content>
+  <content>DataProcessor.УстановкаЦенПродажи</content>
+  <content>AccumulationRegister.Товары</content>
+  <content>DocumentJournal.ТоварыНаСкладах</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>DataProcessor.ЗагрузкаПрайслистаКонтрагента</content>
+  <content>DataProcessor.ЗагрузкаПрайсаИзФайлаXlsx</content>
+  <subsystems>СмТакже</subsystems>
+</mdclass:Subsystem>

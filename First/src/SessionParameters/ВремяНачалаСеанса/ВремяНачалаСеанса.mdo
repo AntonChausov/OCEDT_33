@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f2c58b9-3bc4-4aa3-b4e6-653b05d3797b">
+  <name>ВремяНачалаСеанса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время начала сеанса</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+</mdclass:SessionParameter>

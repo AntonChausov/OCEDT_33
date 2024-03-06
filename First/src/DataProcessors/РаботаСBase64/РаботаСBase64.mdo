@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2403207a-c27e-4881-bdff-9988a9cb9833">
+  <producedTypes>
+    <objectType typeId="a6a300a1-f830-49ca-b2eb-7712487f888b" valueTypeId="6711a034-e0af-4a57-8298-0a049c5ef7b4"/>
+    <managerType typeId="609adb82-9b78-4a8c-a4be-a95805453441" valueTypeId="6c0c16f3-9e58-4297-8d94-45966148ea1a"/>
+  </producedTypes>
+  <name>РаботаСBase64</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с base64</value>
+  </synonym>
+  <comment>Работа с base64</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСBase64.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Работа с base64</value>
+  </extendedPresentation>
+  <forms uuid="12ffe33f-bc71-40ae-a37a-ba83d5ed2917">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

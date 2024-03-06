@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99d73452-cddb-4756-a91f-dca2e50819d0">
+  <producedTypes>
+    <objectType typeId="7d7eda6d-6958-4028-8df6-e6886f1fa226" valueTypeId="fc3cda97-8f7e-4ab4-8f95-b1a578b0dbb8"/>
+    <managerType typeId="eb9d5e18-6aa2-4a15-8230-45ebacdd1b0f" valueTypeId="167e92a8-6575-4b7e-8221-af7eb6df9390"/>
+  </producedTypes>
+  <name>ПересчетПоступлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчет поступлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПересчетПоступлений.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Пересчет поступлений</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Задача 4 &quot;Пересчет данных документов за период&quot;
+NewModules/SID/3_ConfigUpdate.md</value>
+  </explanation>
+  <attributes uuid="89c6f2de-26be-427d-9acd-e6f92789d9fb">
+    <name>ДатаНачалаПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4ad84bfa-1d0f-4641-b76e-19cc5d230c3b">
+    <name>ДатаЗавершенияПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ba0cc344-7792-4444-8268-ff744ea08f51">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

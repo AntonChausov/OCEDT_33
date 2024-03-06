@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79774d3d-9bbe-42a0-bf65-1815bc79e881">
+  <producedTypes>
+    <managerType typeId="c0e66fcc-3498-405b-8c43-6203881f1146" valueTypeId="609a2721-a80c-4742-b5f0-b06858b29522"/>
+    <valueManagerType typeId="0e10857c-6352-4157-a911-f4db7316b1ff" valueTypeId="43a7cf28-f677-4adc-93f6-9aae44fb8276"/>
+    <valueKeyType typeId="d129c7af-c24b-4ec0-994b-8686db0e5f18" valueTypeId="ad3db6f0-77f3-4913-8df4-f7b76ba75977"/>
+  </producedTypes>
+  <name>ВестиРасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести расчет зарплаты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <defaultForm>CommonForm.НастройкаПрограммы</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Включить\Выключить видимость</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

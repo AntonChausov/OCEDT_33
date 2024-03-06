@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="764f621f-f7b7-4200-9420-cccbafb7e011">
+  <producedTypes>
+    <objectType typeId="11ceab54-8d04-4cd6-a4ac-a9792a0a3744" valueTypeId="d115e40b-47bf-4d65-bc1c-4e55591e5085"/>
+    <managerType typeId="e5529373-cbfd-4405-a603-b4fcf7293fb5" valueTypeId="cefe3bde-bc6c-4ef2-88c1-a5cd37136690"/>
+  </producedTypes>
+  <name>ЗагрузкаПрайсаИзФайлаXlsx</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка прайса из файла xlsx</value>
+  </synonym>
+  <comment>Загрузка прайса из файла xlsx</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПрайсаИзФайлаXlsx.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Загрузка прайса из файла xlsx</value>
+  </extendedPresentation>
+  <forms uuid="f43a8e0d-ad88-4004-9f6f-fc6b0701482a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

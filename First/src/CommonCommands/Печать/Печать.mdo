@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55b1780f-217d-4667-a6b2-d84334aadf86">
+  <name>Печать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>CatalogRef.Лекции</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>DocumentRef.ЗаказыПокупателей</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
