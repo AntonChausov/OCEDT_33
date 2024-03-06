@@ -91,6 +91,7 @@
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказыПокупателей</documents>
   <documents>Document.Событие</documents>
